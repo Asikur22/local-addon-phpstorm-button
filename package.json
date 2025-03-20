@@ -1,0 +1,37 @@
+{
+	"name": "phpstorm-button",
+	"productName": "PHPStorm Button",
+	"version": "1.0.0",
+	"author": "Asiqur Rahman",
+	"keywords": [
+		"local-addon",
+		"phpstorm"
+	],
+	"bgColor": "#fff39b",
+	"icon": "icon.png",
+	"slug": "phpstorm-button",
+	"description": "Adds a PHPStorm button after site shell menu item.",
+	"renderer": "lib/renderer.js",
+	"main": "lib/main.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Asikur22/local-addon-phpstorm-button"
+	},
+	"license": "GPL-3.0",
+	"scripts": {
+		"build": "tsc --skipLibCheck",
+		"watch": "watchexec 'npm run build'"
+	},
+	"devDependencies": {
+		"typescript": "^3.9.10"
+	},
+	"dependencies": {
+		"@getflywheel/local-components": "^17.8.0"
+	},
+	"bundledDependencies": [
+		"@getflywheel/local-components"
+	],
+	"engines": {
+		"local-by-flywheel": "^6.5.2"
+	}
+}
