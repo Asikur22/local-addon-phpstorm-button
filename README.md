@@ -20,10 +20,11 @@ A Local by Flywheel addon that adds a open with PHPStorm button.
 npm install
 ```
 
-3. Build the addon:
+4. Build the addon:
 ```bash
 npm run build
 ```
+5. Active form addon menu.
 
 ## License
 
